@@ -1,0 +1,88 @@
+
+
+/*règles pour le header*/
+header {
+
+
+}
+/*règles pour h1*/
+h1 {
+color: blue;
+font-family: small collapse;
+font-variant: small-caps;
+
+}
+/*règles pour le body*/
+body{
+  font-family: Arial;
+
+
+
+}
+/*règles pour h2*/
+h2 {
+  color: #7878ee;
+  text-transform : uppercase;
+}
+/*règles pour les listes*/
+ li {
+  font-style: bold;
+}
+ol {
+  list-style-type: upper-roman;
+}
+/*règles pour les listes ul*/
+ul + ul {
+  list-style:none;
+}
+
+/*règles pour les ancres situés dans la liste li*/
+ul li a{
+  	text-decoration:none;
+    background-color: #E16A72;
+    color: white;
+  	border: 1px solid white;
+    margin-left: -1px; /* pour enlever la double bordure*/
+  	padding:0.5em;
+  	display: inline-block;
+	
+  }
+/*règles pour les liste li*/
+ul li {
+	list-style-type : none;
+	align-self : flex-end; 
+	
+}
+/*règles pour le premier a contenant le logo*/
+.a1 {
+	background-color:white;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.a1:hover {
+	background-color: white;
+}
+/*règles pour le ul*/
+ul {
+    padding:0;
+    display: flex;
+  	flex-flow : row wrap;
+  	justify-content: flex-start; /*alignement depuis la gauche vers la droite*/
+  }
+  
+.aide a {
+	border: 2px blue dashed;
+	padding : 0.5%;
+	border-radius:5px;
+}
+
+.aide {
+	text-align: center;
+}
+/*règles pour les a lorsque l'on passe la souris dessu*/
+a:hover { 
+	text-decoration: underline;
+	background-color: black;
+}
+
+
